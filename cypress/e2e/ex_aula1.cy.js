@@ -22,7 +22,7 @@ describe("Teste de criação, registro e login", () =>{
         cy.get('.btn-primary').should("be.disabled")  
      })
 
-     it("Teste login com sucesso",()=>{
+     it("Teste login com sucesso + delete",()=>{
         let infos = criar_user()
         cy.visit('https://www.globalsqa.com/angularJs-protractor/registration-login-example/#/login')
         cy.get('#username').type(infos[0])
