@@ -1,4 +1,6 @@
 # S206
-S206-LAB
-Para executar o teste basta executar o comando npx cypress run, já para gearar o relatório basta executar o comando npx cypress run, ao final da execução, o relatório será gerado nu formato html
+LISTA E PROVA
 
+Para executar o teste basta abrier o terminal e executar o comando "newman run arquivo.json"
+
+Para gerar o relatório basta abrir o terminal executar o comando "newman run arquivo.json -r htmlextra", ao final da execução, o relatório será gerado no formato html
